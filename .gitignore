@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+env/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models
+models/*
+!models/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
+
+#JSONL
+*.jsonl

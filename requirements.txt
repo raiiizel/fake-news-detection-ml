@@ -1,0 +1,11 @@
+torch
+transformers
+datasets
+peft
+accelerate
+faiss-cpu
+pyserini
+gradio
+evaluate
+scikit-learn
+matplotlib
